@@ -13,15 +13,9 @@ const Contact = () => {
           Email me
         </span>
       </a>
-      <a
-        href={pdf}
-        target="_blank"
-        rel="noreferer">
-        <span
-        type="button"
-        className="btn btn--outline"
-      >
-        Download Resume
+      <a href={pdf} rel="noreferer">
+        <span type="button" className="btn btn--outline">
+          Download Resume
         </span>
       </a>
     </section>
