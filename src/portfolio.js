@@ -17,27 +17,29 @@ const about = {
 const projects = [
   // projects can be added and removed
   {
-    name: "Project 1",
-    description: "cxklblnn kcnl sdhk dskgjhl h kshlg sdkhfkls  sdf",
-    stack: ["SASS", "TypeScript", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "",
+    name: "Expense Calculator",
+    description: "A react app helps with tracking everyday finances",
+    stack: ["HTML", "CSS", "JavaScript", "React"],
+    sourceCode: "https://github.com/bikashghimire/Expense-Calculater",
+    livePreview: "https://expensescalculator1.netlify.app/",
   },
 
   {
-    name: "Project 2",
-    description: "",
-    stack: ["SASS", "TypeScript", "React"],
+    name: "GitHub User Search",
+    description:
+      "A react app helps to find users in github by searching with username",
+    stack: ["SASS", "JavaScript", "React"],
     sourceCode: "https://github.com",
-    livePreview: "",
+    livePreview: "https://searchuseringithub.netlify.app/",
   },
 
   {
-    name: "Project 3",
-    description: "",
-    stack: ["SASS", "TypeScript", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "jjjöl",
+    name: "Country Search API",
+    description:
+      "It displays list of countries with their detail information gets data from api",
+    stack: ["SASS", "JavaScript", "React"],
+    sourceCode: "https://github.com/bikashghimire/Country-Flag-API",
+    livePreview: "work in progress",
   },
 ];
 
@@ -55,6 +57,8 @@ const skills = [
   "Express",
   "PHP",
   "SQL",
+  "Express JS",
+  "Node JS",
 ];
 
 const contact = {
