@@ -59,6 +59,7 @@ const skills = [
   "SQL",
   "Express JS",
   "Node JS",
+  "PYTHON",
 ];
 
 const contact = {
