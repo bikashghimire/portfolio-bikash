@@ -5,9 +5,9 @@ const header = {
 
 const about = {
   name: "Bikash Ghimire",
-  role: "Front end Engineer",
+  role: "Front End Developer",
   description:
-    "Ambitious, Optimistic Web Developer with the skillsets of JavaScript for modern web development with the ability to work in a fast-changing environment",
+    "Ambitious, Optimistic Web Developer with the skillsets of JavaScript,React, TypeScript for modern web development with the ability to work in a fast-changing environment",
   social: {
     linkedin: "https://linkedin.com/in/bikashghimire",
     github: "https://github.com",
@@ -41,6 +41,30 @@ const projects = [
     sourceCode: "https://github.com/bikashghimire/Country-Flag-API",
     livePreview: "work in progress",
   },
+  {
+    name: "Ecommerce",
+    description:
+      "It displays list of countries with their detail information gets data from api",
+    stack: ["SASS", "JavaScript", "ExpressJS"],
+    sourceCode: "https://github.com/bikashghimire/ecommerce-application",
+    livePreview: "Maintaing, refining",
+  },
+  {
+    name: "Blog-Site",
+    description:
+      "It displays list of countries with their detail information gets data from api",
+    stack: ["SASS", "JavaScript", "EJS"],
+    sourceCode: "https://github.com/bikashghimire/blog-post",
+    livePreview: "work in progress",
+  },
+  {
+    name: "Something is cooking",
+    description:
+      "It displays list of countries with their detail information gets data from api",
+    stack: ["SASS", "JavaScript", "React"],
+    sourceCode: "https://github.com/bikashghimire/Country-Flag-API",
+    livePreview: "work in progress",
+  },
 ];
 
 const skills = [
@@ -49,6 +73,7 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Storybook",
   "Redux",
   "SASS",
   "Material UI",
