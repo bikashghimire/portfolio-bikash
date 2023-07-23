@@ -58,12 +58,11 @@ const projects = [
     livePreview: "work in progress",
   },
   {
-    name: "Something is cooking",
-    description:
-      "It displays list of countries with their detail information gets data from api",
-    stack: ["SASS", "JavaScript", "React"],
-    sourceCode: "https://github.com/bikashghimire/Country-Flag-API",
-    livePreview: "work in progress",
+    name: "Ecommerce",
+    description: "Fully functioning ecommerce application",
+    stack: ["SASS", "JavaScript", "EJS"],
+    sourceCode: "https://github.com/bikashghimire/ecommerce-application",
+    livePreview: "",
   },
 ];
 
