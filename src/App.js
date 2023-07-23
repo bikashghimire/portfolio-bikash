@@ -18,7 +18,7 @@ const App = () => {
 
       <main>
         <About />
-        <Projects />
+        <Projects/>
         <Skills />
         <Contact />
       </main>

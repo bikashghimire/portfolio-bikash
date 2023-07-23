@@ -18,7 +18,7 @@ const projects = [
   // projects can be added and removed
   {
     name: "Expense Calculator",
-    description: "A react app helps with tracking everyday finances",
+    description: "A react app helps with tracking everyday finances! You going to love it.",
     stack: ["HTML", "CSS", "JavaScript", "React"],
     sourceCode: "https://github.com/bikashghimire/Expense-Calculater",
     livePreview: "https://expensescalculator1.netlify.app/",
