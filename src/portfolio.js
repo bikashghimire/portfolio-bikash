@@ -18,7 +18,8 @@ const projects = [
   // projects can be added and removed
   {
     name: "Expense Calculator",
-    description: "A react app helps with tracking everyday finances! You going to love it.",
+    description:
+      "A react app helps with tracking everyday finances! You going to love it.",
     stack: ["HTML", "CSS", "JavaScript", "React"],
     sourceCode: "https://github.com/bikashghimire/Expense-Calculater",
     livePreview: "https://expensescalculator1.netlify.app/",
@@ -38,15 +39,15 @@ const projects = [
     description:
       "It displays list of countries with their detail information gets data from api",
     stack: ["SASS", "JavaScript", "React"],
-    sourceCode: "https://github.com/bikashghimire/Country-Flag-API",
+    sourceCode: "https://github.com/bikashghimire/restapi-countries-latest",
     livePreview: "work in progress",
   },
   {
-    name: "Ecommerce",
+    name: "Serverless React",
     description:
       "It displays list of countries with their detail information gets data from api",
-    stack: ["SASS", "JavaScript", "ExpressJS"],
-    sourceCode: "https://github.com/bikashghimire/ecommerce-application",
+    stack: ["React", "JavaScript", "ExpressJS"],
+    sourceCode: "https://github.com/bikashghimire/react-aws",
     livePreview: "Maintaing, refining",
   },
   {
