@@ -65,6 +65,13 @@ const projects = [
     sourceCode: "https://github.com/bikashghimire/ecommerce-application",
     livePreview: "",
   },
+    {
+    name: "NoteBook",
+    description: "A NoteBook app based on React, BootStrap & TypeScript. ",
+    stack: ["BootStrap", "React", "TypeScript"],
+    sourceCode: "https://github.com/bikashghimire/typescript-note-taking-app",
+    livePreview: "https://mynotebookapps.netlify.app/",
+  },
 ];
 
 const skills = [
