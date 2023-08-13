@@ -65,11 +65,18 @@ const projects = [
     sourceCode: "https://github.com/bikashghimire/ecommerce-application",
     livePreview: "",
   },
-    {
+  {
     name: "NoteBook",
     description: "A NoteBook app based on React, BootStrap & TypeScript. ",
     stack: ["BootStrap", "React", "TypeScript"],
-    sourceCode: "https://github.com/bikashghimire/typescript-note-taking-app",
+    sourceCode: "https://github./bikashghimire/typescript-note-taking-app",
+    livePreview: "https://mynotebookapps.netlify.app/",
+  },
+  {
+    name: "SvelteKit",
+    description: "A NoteBook app based on Sveltekit with login logout features",
+    stack: ["Sveltekit", "Firebase", "TypeScript"],
+    sourceCode: "https://github.com/bikashghimire/sveltekit-crud-fullstack",
     livePreview: "https://mynotebookapps.netlify.app/",
   },
 ];
@@ -92,6 +99,7 @@ const skills = [
   "Express JS",
   "Node JS",
   "PYTHON",
+  "SvelteKit",
 ];
 
 const contact = {
