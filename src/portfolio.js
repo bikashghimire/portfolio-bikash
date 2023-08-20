@@ -5,15 +5,38 @@ const header = {
 
 const about = {
   name: "Bikash Ghimire",
-  role: "Front End Developer",
+  role: "Software Developer",
   description:
-    "Ambitious, Optimistic Web Developer with the skillsets of JavaScript,React, TypeScript for modern web development with the ability to work in a fast-changing environment",
+    "Ambitious, Optimistic Web Developer with the skillsets of JavaScript,React, TypeScript, Node JS for modern web development with the ability to work in a fast-changing environment",
   social: {
     linkedin: "https://linkedin.com/in/bikashghimire",
     github: "https://github.com",
   },
 };
 
+const experiences = [
+  // projects can be added and removed
+  {
+    name: "Full Stack Developer (2021-2023)",
+    description:
+      "A react app helps with tracking everyday finances! You going to love it.",
+    stack: ["HTML", "CSS", "JavaScript", "React"],
+  },
+
+  {
+    name: "Web Developer",
+    description:
+      "A react app helps to find users in github by searching with username",
+    stack: ["SASS", "JavaScript", "React"],
+  },
+
+  {
+    name: "Software Developer",
+    description:
+      "It displays list of countries with their detail information gets data from api",
+    stack: ["SASS", "JavaScript", "React"],
+  },
+];
 const projects = [
   // projects can be added and removed
   {
@@ -79,6 +102,13 @@ const projects = [
     sourceCode: "https://github.com/bikashghimire/sveltekit-crud-fullstack",
     livePreview: "https://mynotebookapps.netlify.app/",
   },
+  {
+    name: "Under going",
+    description: "A NoteBook app based on Sveltekit with login logout features",
+    stack: ["Sveltekit", "Firebase", "TypeScript"],
+    sourceCode: "https://github.com/bikashghimire/sveltekit-crud-fullstack",
+    livePreview: "https://mynotebookapps.netlify.app/",
+  },
 ];
 
 const skills = [
@@ -106,4 +136,4 @@ const contact = {
   email: "bikashghimire2610@gmail.com",
 };
 
-export { header, about, projects, skills, contact };
+export { header, about, experiences, projects, skills, contact };
