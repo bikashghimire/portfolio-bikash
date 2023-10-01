@@ -17,7 +17,7 @@ const about = {
 const experiences = [
   // projects can be added and removed
   {
-    name: "Full Stack Developer (2021-2023)",
+    name: "Full Stack Developer",
     description:
       "A react app helps with tracking everyday finances! You going to love it.",
     stack: ["HTML", "CSS", "JavaScript", "React"],
@@ -124,6 +124,7 @@ const skills = [
   "Git",
   "CI/CD",
   "Express",
+  "JEST",
   "PHP",
   "SQL",
   "Express JS",
