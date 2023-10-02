@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-bikash/static/css/main.b42c36a4.css",
+    "main.js": "/portfolio-bikash/static/js/main.11111824.js",
+    "static/media/bikash_ghimire_cv.pdf": "/portfolio-bikash/static/media/bikash_ghimire_cv.13e5a9e13491ad038f98.pdf",
+    "index.html": "/portfolio-bikash/index.html",
+    "main.b42c36a4.css.map": "/portfolio-bikash/static/css/main.b42c36a4.css.map",
+    "main.11111824.js.map": "/portfolio-bikash/static/js/main.11111824.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b42c36a4.css",
+    "static/js/main.11111824.js"
+  ]
+}
