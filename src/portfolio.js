@@ -17,24 +17,35 @@ const about = {
 const experiences = [
   // projects can be added and removed
   {
-    name: "Full Stack Developer",
+    name: "Integrify Oy",
+    role: "Full Stack Developer",
     description:
-      "A react app helps with tracking everyday finances! You going to love it.",
-    stack: ["HTML", "CSS", "JavaScript", "React"],
+      "Joined through the six-month intensive full-stack program for modern web development with the stacks of React, TypeScript, NodeJS, MongoDB, SQL & PostgreSQL with the role of Full stack developer.",
+    stack: ["HTML", "CSS", "JavaScript", "React", "MongoDB"],
   },
 
   {
-    name: "Web Developer",
+    name: "Funky Salsa Oy",
+    role: "Web Developer",
     description:
-      "A react app helps to find users in github by searching with username",
-    stack: ["SASS", "JavaScript", "React"],
+      " Developed an order-handling web application with modern features from scratch using modern features and practices",
+    stack: ["SASS", "JavaScript", "React", "Firebase"],
   },
 
   {
-    name: "Software Developer",
+    name: "Metso Oyj",
+    role: "Software Developer",
     description:
-      "It displays list of countries with their detail information gets data from api",
-    stack: ["SASS", "JavaScript", "React"],
+      "Developing well-documented and maintainable web components using HTML, CSS, React,andTypeScript.Continuously testing, debugging, and enhancing software applications by adding new features to the existing codebase.",
+    stack: [
+      "SASS",
+      "JavaScript",
+      "React",
+      "Storybook",
+      "TypeScript",
+      "Jest",
+      "Azure",
+    ],
   },
 ];
 const projects = [
