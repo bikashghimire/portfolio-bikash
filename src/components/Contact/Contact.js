@@ -1,6 +1,6 @@
 import { contact } from "../../portfolio";
 import "./Contact.css";
-import pdf from "../../resume/bikash_ghimire_cv.pdf";
+import pdf from "../../resume/GHIMIRE_BIKASH_CV.pdf";
 
 const Contact = () => {
   if (!contact.email) return null;

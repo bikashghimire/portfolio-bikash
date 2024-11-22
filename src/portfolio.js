@@ -10,7 +10,7 @@ const about = {
     "Ambitious, Optimistic Web Developer with the skillsets of JavaScript,React, TypeScript, Node JS for modern web development with the ability to work in a fast-changing environment",
   social: {
     linkedin: "https://linkedin.com/in/bikashghimire",
-    github: "https://github.com",
+    github: "https://github.com/bikashghimire",
   },
 };
 
@@ -43,6 +43,7 @@ const experiences = [
       "React",
       "Storybook",
       "TypeScript",
+      "web components",
       "Jest",
       "Azure",
     ],
@@ -60,12 +61,12 @@ const projects = [
   },
 
   {
-    name: "GitHub User Search",
+    name: "Bikash Dev Blog",
     description:
-      "A react app helps to find users in github by searching with username",
-    stack: ["SASS", "JavaScript", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "https://searchuseringithub.netlify.app/",
+      "I sometimes write stuffs about Front-End development, Design System.",
+    stack: ["Nunjucks", "JavaScript", "CSS"],
+    sourceCode: "https://github.com/bikashghimire/bikashdev-blog",
+    livePreview: "https://bikashdev.netlify.app/about/",
   },
 
   {
@@ -128,8 +129,10 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Web Components",
   "Storybook",
   "Redux",
+  "Next JS",
   "SASS",
   "Material UI",
   "Git",
