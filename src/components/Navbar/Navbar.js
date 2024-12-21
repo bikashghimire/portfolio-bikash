@@ -1,20 +1,19 @@
-import { useContext, useState } from "react";
-import Brightness2Icon from "@mui/icons-material/Brightness2";
-
-import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
-
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
-
-import { ThemeContext } from "../../contexts/theme";
-import { projects, skills, contact } from "../../portfolio";
+import React, { useContext, useState } from "react";
+import { experiences, projects, skills, contact } from "../../portfolio";
 import "./Navbar.css";
+import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
+import Brightness2Icon from "@material-ui/icons/Brightness2";
+import CloseIcon from "@material-ui/icons/Close";
+import MenuIcon from "@material-ui/icons/Menu";
+import { ThemeContext } from "../../contexts/theme";
 
-const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+const Navbar = ({}) => {
   const [showNavList, setShowNavList] = useState(false);
+  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
 
-  const toggleNavList = () => setShowNavList(!showNavList);
+  const toggleNavList = () => {
+    setShowNavList(!showNavList);
+  };
 
   return (
     <nav className="center nav">
@@ -22,7 +21,7 @@ const Navbar = () => {
         style={{ display: showNavList ? "flex" : null }}
         className="nav__list"
       >
-        {projects.length ? (
+        {experiences.length ? (
           <li className="nav__list-item">
             <a
               href="#experiences"

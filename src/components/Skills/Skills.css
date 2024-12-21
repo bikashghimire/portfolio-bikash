@@ -1,12 +1,74 @@
-.skills__list {
-    max-width: 450px;
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --card-background-color: #fff;
+  --card-shadow-color: rgba(0, 0, 0, 0.1);
+  --card-hover-shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #fff;
+    --card-background-color: #1e1e1e;
+    --card-shadow-color: rgba(255, 255, 255, 0.1);
+    --card-hover-shadow-color: rgba(255, 255, 255, 0.2);
   }
-  
-  .skills__list-item {
-    margin: 0.5em;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.skills__card {
+  background-color: var(--card-background-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--card-shadow-color);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+  width: 100px; /* Smaller fixed width */
+  height: 100px; /* Smaller fixed height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem; /* Adjusted font size */
+  color: var(--text-color); /* Ensure text color adapts */
+}
+
+.skills__card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px var(--card-hover-shadow-color);
+}
+
+.skills__name {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
+}

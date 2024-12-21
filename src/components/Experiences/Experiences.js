@@ -12,7 +12,18 @@ const Experiences = () => {
 
       <div className="experiences__grid">
         {experiences.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
+          <div key={uniqid()} className="experience__card">
+            <h3 className="experience__title">{project.name}</h3>
+            <h4 className="experience__role">{project.role}</h4>
+            <p className="experience__description">{project.description}</p>
+            <div className="experience__stack">
+              {project.stack.map((tech) => (
+                <span key={uniqid()} className="experience__tech">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </section>
