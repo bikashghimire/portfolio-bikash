@@ -1,0 +1,108 @@
+.section {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.section__title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: var(--text-color);
+  margin: 0.5rem auto 0;
+  transition: width 0.3s ease;
+}
+
+.section__title:hover::after {
+  width: 100%;
+}
+
+.academics__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.academic__item {
+  background-color: var(--card-background-color);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.academic__item:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--hover-shadow);
+}
+
+.academic__item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.academic__item p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-text-color);
+}
+
+.academic__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.academic__badge {
+  background-color: var(--badge-background-color);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+  color: var(--badge-text-color);
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
+
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --secondary-text-color: #555;
+  --card-background-color: #f0f0f0;
+  --badge-background-color: #e0e0e0;
+  --badge-text-color: #000;
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  --hover-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #fff;
+    --secondary-text-color: #aaa;
+    --card-background-color: #1e1e1e;
+    --badge-background-color: #333;
+    --badge-text-color: #fff;
+    --shadow: rgba(255, 255, 255, 0.1) 0px 4px 8px;
+    --hover-shadow: rgba(255, 255, 255, 0.2) 0px 8px 16px;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

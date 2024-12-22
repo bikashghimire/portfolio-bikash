@@ -1,5 +1,11 @@
 import React, { useContext, useState } from "react";
-import { experiences, projects, skills, contact } from "../../portfolio";
+import {
+  academics,
+  experiences,
+  projects,
+  skills,
+  contact,
+} from "../../portfolio";
 import "./Navbar.css";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import Brightness2Icon from "@material-ui/icons/Brightness2";
@@ -21,6 +27,18 @@ const Navbar = ({}) => {
         style={{ display: showNavList ? "flex" : null }}
         className="nav__list"
       >
+        {academics.length ? (
+          <li className="nav__list-item">
+            <a
+              href="#academics"
+              onClick={toggleNavList}
+              className="link link--nav"
+            >
+              Academics
+            </a>
+          </li>
+        ) : null}
+
         {experiences.length ? (
           <li className="nav__list-item">
             <a
@@ -32,6 +50,7 @@ const Navbar = ({}) => {
             </a>
           </li>
         ) : null}
+
         {projects.length ? (
           <li className="nav__list-item">
             <a
@@ -43,7 +62,6 @@ const Navbar = ({}) => {
             </a>
           </li>
         ) : null}
-
         {skills.length ? (
           <li className="nav__list-item">
             <a
@@ -55,7 +73,6 @@ const Navbar = ({}) => {
             </a>
           </li>
         ) : null}
-
         {contact.email ? (
           <li className="nav__list-item">
             <a

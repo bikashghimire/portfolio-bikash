@@ -1,5 +1,139 @@
-.contact {
-  flex-direction: column;
-  gap: 10px;
+.section {
+  padding: 2rem 0;
+  text-align: center;
 }
 
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.section__title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: var(--text-color);
+  margin: 0.5rem auto 0;
+  transition: width 0.3s ease;
+}
+
+.section__title:hover::after {
+  width: 100%;
+}
+
+.contact.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__form-container {
+  width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--card-background-color);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact__form-container:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--hover-shadow);
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align labels to the flex start */
+  width: 100%; /* Ensure form group takes full width */
+}
+
+.contact__form-label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.contact__form-input {
+  width: 100%; /* Ensure inputs take full width */
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact__form-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 8px var(--primary-color);
+  outline: none;
+}
+
+.contact__form-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%; /* Ensure actions take full width */
+}
+
+.contact__button {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: var(--text-color);
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn--outline {
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: var(--background-color);
+}
+
+:root {
+  --primary-color: #007bff;
+  --text-color: #000;
+  --background-color: #fff;
+  --card-background-color: #f0f0f0;
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  --hover-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #90a0d9;
+    --text-color: #fff;
+    --background-color: #121212;
+    --card-background-color: #1e1e1e;
+    --shadow: rgba(255, 255, 255, 0.1) 0px 4px 8px;
+    --hover-shadow: rgba(255, 255, 255, 0.2) 0px 8px 16px;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

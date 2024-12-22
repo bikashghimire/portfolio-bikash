@@ -6,18 +6,22 @@
   --card-text-color: #000;
   --badge-background-color: #e0e0e0;
   --badge-text-color: #000;
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  --hover-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #121212;
-    --text-color: #fff;
-    --secondary-text-color: #aaa;
-    --card-background-color: #1e1e1e;
-    --card-text-color: #fff;
-    --badge-background-color: #333;
-    --badge-text-color: #fff;
-  }
+.dark {
+  --background-color: #23283e;
+  --text-color: #bdbddd;
+  --secondary-text-color: #cdcdff;
+  --card-background-color: #2a2f4c;
+  --card-text-color: #bdbddd;
+  --badge-background-color: #2a2f4c;
+  --badge-text-color: #bdbddd;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --hover-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 body {
@@ -44,14 +48,14 @@ body {
 .experience__card {
   background-color: var(--card-background-color);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
   padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .experience__card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--hover-shadow);
 }
 
 .experience__title {

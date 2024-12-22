@@ -1,38 +1,61 @@
-.about {
-  flex-direction: column;
-  margin-top: 3em;
-}
-
-.about__name {
-  color: var(--clr-primary);
-}
-
-.about__role {
-  margin-top: 1.2em;
-}
-
-.about__desc {
-  font-size: 1rem;
-  max-width: 600px;
+.section {
+  padding: 2rem 0;
   text-align: center;
 }
 
-.about__desc,
-.about__contact {
-  margin-top: 2.4em;
+.about__container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.about .link--icon {
-  margin-right: 0.8em;
+.about__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-.about .btn--outline {
-  margin-right: 1em;
+.about__name {
+  color: var(--primary-color);
 }
 
-@media (max-width: 600px) {
-  .app .about {
-    align-items: flex-start;
-    margin-top: 2em;
+.about__role {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about__description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.about__social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about__social-link {
+  font-size: 2rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.about__social-link:hover {
+  color: var(--primary-color);
+}
+
+:root {
+  --primary-color: #007bff;
+  --text-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #90a0d9;
+    --text-color: #fff;
   }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
