@@ -79,7 +79,6 @@ const experiences = [
       "Azure OpenAI Studio",
       "CI/CD",
       "Figma",
-      "UX/UI Design",
     ],
     duration: "May 2023 - Nov 2024",
   },
