@@ -63,26 +63,10 @@ const academics = [
 const experiences = [
   // experiences can be added and removed
   {
-    name: "Integrify Oy",
-    role: "Full Stack Developer",
-    description:
-      "Joined through the six-month intensive full-stack program for modern web development with the stacks of React, TypeScript, NodeJS, MongoDB, SQL & PostgreSQL with the role of Full stack developer.",
-    stack: ["HTML", "CSS", "JavaScript", "React", "MongoDB"],
-  },
-
-  {
-    name: "Funky Salsa Oy",
-    role: "Web Developer",
-    description:
-      " Developed an order-handling web application with modern features from scratch using modern features and practices",
-    stack: ["SASS", "JavaScript", "React", "Firebase"],
-  },
-
-  {
-    name: "Metso Oyj",
+    name: "Metso",
     role: "Software Developer",
     description:
-      "Developing well-documented and maintainable web components using HTML, CSS, React,andTypeScript.Continuously testing, debugging, and enhancing software applications by adding new features to the existing codebase.",
+      "At Metso, I led the development of scalable design system UI libraries, including a React-based framework and a framework-agnostic web components library, collectively achieving 100,000+ npm downloads. I ensured components were reusable, accessible, and performance-optimized, adhering to WCAG standards and collaborating with cross-functional teams. My work on the design system earned recognition at the Metso Innovation Award 2024 for its impact on UI/UX standardization and scalability. Additionally, I developed AI-driven solutions in Azure using OpenAI Studio, integrated CI/CD workflows, and deployed static web applications.",
     stack: [
       "SASS",
       "JavaScript",
@@ -93,6 +77,43 @@ const experiences = [
       "Jest",
       "Azure",
     ],
+    duration: "May 2023 - Nov 2024",
+  },
+
+  {
+    name: "Funky Salsa Oy",
+    role: "Web Developer",
+    description:
+      " Developed an order-handling web application with modern features from scratch using modern features and practices",
+    stack: ["SASS", "JavaScript", "React", "Firebase"],
+    duration: "2022 - August 2023",
+  },
+  {
+    name: "Integrify Oy",
+    role: "Full Stack Developer",
+    description:
+      "Joined through the six-month intensive full-stack program for modern web development with the stacks of React, TypeScript, NodeJS, MongoDB, SQL & PostgreSQL with the role of Full stack developer.",
+    stack: ["HTML", "CSS", "JavaScript", "React", "MongoDB"],
+    duration: "January 2022 - June 2022",
+  },
+
+  {
+    name: "Centria University R & D",
+    role: "Software Developer Intern",
+    description:
+      "During my six-month internship at Centria University of Applied Sciences in Kokkola, I engaged in two significant projects, one in Game Development and the other in Web Development.,",
+    stack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "C++",
+      "Arduino",
+      "Raspberry Pi",
+      "Agile Methodology",
+    ],
+    duration: "July 2021 - December 2021",
   },
 ];
 const projects = [
