@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-bikash/static/css/main.13befe99.css",
-    "main.js": "/portfolio-bikash/static/js/main.7e02c3d0.js",
+    "main.css": "/portfolio-bikash/static/css/main.c1f1942a.css",
+    "main.js": "/portfolio-bikash/static/js/main.d61dfa89.js",
     "static/media/ghimire_bikash_cv.pdf": "/portfolio-bikash/static/media/ghimire_bikash_cv.11cae87f1117de9c182e.pdf",
     "index.html": "/portfolio-bikash/index.html",
-    "main.13befe99.css.map": "/portfolio-bikash/static/css/main.13befe99.css.map",
-    "main.7e02c3d0.js.map": "/portfolio-bikash/static/js/main.7e02c3d0.js.map"
+    "main.c1f1942a.css.map": "/portfolio-bikash/static/css/main.c1f1942a.css.map",
+    "main.d61dfa89.js.map": "/portfolio-bikash/static/js/main.d61dfa89.js.map"
   },
   "entrypoints": [
-    "static/css/main.13befe99.css",
-    "static/js/main.7e02c3d0.js"
+    "static/css/main.c1f1942a.css",
+    "static/js/main.d61dfa89.js"
   ]
 }
