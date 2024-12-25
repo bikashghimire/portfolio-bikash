@@ -13,53 +13,6 @@ const about = {
     github: "https://github.com/bikashghimire",
   },
 };
-
-const academics = [
-  {
-    institution: "Åbo Akademi University",
-    degree:
-      "Masters Degree in Information Technology, Computer Software Engineering",
-    duration: "Aug 2023 - Feb 2025",
-    courses: [
-      "Artificial Intelligence",
-      "Software Quality",
-      "Machine Learning",
-      "Web Technologies",
-      "System Safety",
-      "Project Course",
-      "Autonomic Software and System",
-      "Tools for Reliable Software Construction",
-      "Cloud Computing",
-      "Code Optimisation",
-      "Research Method in Computer Science and Engineering",
-      "Data Science",
-      "Software Construction",
-      "Analytics for Industrial Internet",
-    ],
-  },
-  {
-    institution: "Centria University of Applied Sciences",
-    degree:
-      "Bachelor's degree in Information Technology, Computer Software Engineering",
-    duration: "Aug 2017 - Dec 2021",
-    courses: [
-      "Extent of Studies : 240 Cr.",
-      "Completed Studies : 275 Cr.",
-      "Software Engineering, Mathematics, Physics and Chemistry",
-      "Algorithm and Data Structure",
-      "Modeling Techniques, Object-Oriented Programming & Modelling",
-      "Mobile Software Development I & II",
-      "Embedded Software",
-      "Software Project",
-      "Agile Methodology",
-      "Android Programming",
-      "C, C++, Java, JavaScript, HTML, CSS, SQL, C#(ASP.NET)",
-      "IP Networks, CCNA1, Security, Routing and Switching essentials",
-      "Netbeans, Microsoft Visual Studio",
-      "Project Management",
-    ],
-  },
-];
 const experiences = [
   // experiences can be added and removed
   {
@@ -119,6 +72,53 @@ const experiences = [
     duration: "July 2021 - December 2021",
   },
 ];
+const academics = [
+  {
+    institution: "Åbo Akademi University",
+    degree:
+      "Masters Degree in Information Technology, Computer Software Engineering",
+    duration: "Aug 2023 - Feb 2025",
+    courses: [
+      "Artificial Intelligence",
+      "Software Quality",
+      "Machine Learning",
+      "Web Technologies",
+      "System Safety",
+      "Project Course",
+      "Autonomic Software and System",
+      "Tools for Reliable Software Construction",
+      "Cloud Computing",
+      "Code Optimisation",
+      "Research Method in Computer Science and Engineering",
+      "Data Science",
+      "Software Construction",
+      "Analytics for Industrial Internet",
+    ],
+  },
+  {
+    institution: "Centria University of Applied Sciences",
+    degree:
+      "Bachelor's degree in Information Technology, Computer Software Engineering",
+    duration: "Aug 2017 - Dec 2021",
+    courses: [
+      "Extent of Studies : 240 Cr.",
+      "Completed Studies : 275 Cr.",
+      "Software Engineering, Mathematics, Physics and Chemistry",
+      "Algorithm and Data Structure",
+      "Modeling Techniques, Object-Oriented Programming & Modelling",
+      "Mobile Software Development I & II",
+      "Embedded Software",
+      "Software Project",
+      "Agile Methodology",
+      "Android Programming",
+      "C, C++, Java, JavaScript, HTML, CSS, SQL, C#(ASP.NET)",
+      "IP Networks, CCNA1, Security, Routing and Switching essentials",
+      "Netbeans, Microsoft Visual Studio",
+      "Project Management",
+    ],
+  },
+];
+
 const projects = [
   // projects can be added and removed
   {

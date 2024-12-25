@@ -1,10 +1,39 @@
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --card-background-color: #fff;
+  --card-shadow-color: rgba(0, 0, 0, 0.1);
+  --card-hover-shadow-color: rgba(0, 0, 0, 0.2);
+  --badge-background-color: #e0e0e0;
+  --badge-text-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #fff;
+    --card-background-color: #1e1e1e;
+    --card-shadow-color: rgba(255, 255, 255, 0.1);
+    --card-hover-shadow-color: rgba(255, 255, 255, 0.2);
+    --badge-background-color: #333;
+    --badge-text-color: #fff;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
 .project {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--shadow);
+  box-shadow: var(--card-shadow-color);
   transition: transform 0.2s linear;
   height: 100%;
+  background-color: var(--card-background-color);
+  color: var(--text-color);
 }
 
 .project:hover {
@@ -18,6 +47,7 @@
 .project__description {
   padding: 5px;
   text-align: center;
+  color: var(--text-color);
 }
 
 .project__stack {
@@ -25,15 +55,25 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
+  gap: 10px;
 }
 
 .project__stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  background-color: var(--badge-background-color);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+  color: var(--badge-text-color);
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project__stack-item:hover {
+  background-color: var(--card-hover-shadow-color);
 }
 
 .project .link--icon {
   margin-left: 0.5em;
+  color: var(--text-color);
 }
