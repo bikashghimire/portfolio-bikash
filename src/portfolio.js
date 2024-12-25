@@ -122,6 +122,37 @@ const experiences = [
 const projects = [
   // projects can be added and removed
   {
+    name: "Bikash Dev Blog",
+    description:
+      "I sometimes write stuffs about Front-End development, Design System.",
+    stack: ["Nunjucks", "JavaScript", "CSS"],
+    sourceCode: "https://github.com/bikashghimire/bikashdev-blog",
+    livePreview: "https://bikashdev.netlify.app/about/",
+  },
+  {
+    name: "Dashboard",
+    description:
+      "I developed a dashboard interface leveraging Next.js, TypeScript, and Shadcn/UI.",
+    stack: ["Next.Js", "TypeScript", "Shadcn/UI"],
+    sourceCode: "https://github.com/bikashghimire/bikashdev-blog",
+    livePreview: "https://bikashpress-ui.vercel.app/",
+  },
+  {
+    name: "Tapana Oy Website",
+    description:
+      "I developed a dashboard interface leveraging Next.js, TypeScript, and Shadcn/UI.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/bikashghimire/tapana-oy",
+    livePreview: "https://santo-one.vercel.app/",
+  },
+  {
+    name: "Bikash Dev Website",
+    description: "Website for showcasing my portfolio, blog, and other stuffs.",
+    stack: ["TypeScript", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/bikashghimire/tapana-oy",
+    livePreview: "https://bikashdev-com.vercel.app/",
+  },
+  {
     name: "Expense Calculator",
     description:
       "A react app helps with tracking everyday finances! You going to love it.",
@@ -131,23 +162,6 @@ const projects = [
   },
 
   {
-    name: "Bikash Dev Blog",
-    description:
-      "I sometimes write stuffs about Front-End development, Design System.",
-    stack: ["Nunjucks", "JavaScript", "CSS"],
-    sourceCode: "https://github.com/bikashghimire/bikashdev-blog",
-    livePreview: "https://bikashdev.netlify.app/about/",
-  },
-
-  {
-    name: "Country Search API",
-    description:
-      "It displays list of countries with their detail information gets data from api",
-    stack: ["SASS", "JavaScript", "React"],
-    sourceCode: "https://github.com/bikashghimire/restapi-countries-latest",
-    livePreview: "work in progress",
-  },
-  {
     name: "Serverless React",
     description:
       "It displays list of countries with their detail information gets data from api",
@@ -155,14 +169,7 @@ const projects = [
     sourceCode: "https://github.com/bikashghimire/react-aws",
     livePreview: "Maintaing, refining",
   },
-  {
-    name: "Blog-Site",
-    description:
-      "It displays list of countries with their detail information gets data from api",
-    stack: ["SASS", "JavaScript", "EJS"],
-    sourceCode: "https://github.com/bikashghimire/blog-post",
-    livePreview: "work in progress",
-  },
+
   {
     name: "Ecommerce",
     description: "Fully functioning ecommerce application",
@@ -171,22 +178,17 @@ const projects = [
     livePreview: "",
   },
   {
-    name: "NoteBook",
-    description: "A NoteBook app based on React, BootStrap & TypeScript. ",
-    stack: ["BootStrap", "React", "TypeScript"],
+    name: "Sherpa Food & Bar Website",
+    description: "A website for a restaurant in Helsinki",
+    stack: ["BootStrap", "HTML", "CSS"],
     sourceCode: "https://github./bikashghimire/typescript-note-taking-app",
-    livePreview: "https://mynotebookapps.netlify.app/",
+    livePreview:
+      "https://bikashghimire.github.io/sherpa-food-and-bar-dev-team/",
   },
+
   {
-    name: "SvelteKit",
-    description: "A NoteBook app based on Sveltekit with login logout features",
-    stack: ["Sveltekit", "Firebase", "TypeScript"],
-    sourceCode: "https://github.com/bikashghimire/sveltekit-crud-fullstack",
-    livePreview: "https://mynotebookapps.netlify.app/",
-  },
-  {
-    name: "Under going",
-    description: "A NoteBook app based on Sveltekit with login logout features",
+    name: "SvelteKit Notebook",
+    description: "A NoteBook app based on Sveltekit",
     stack: ["Sveltekit", "Firebase", "TypeScript"],
     sourceCode: "https://github.com/bikashghimire/sveltekit-crud-fullstack",
     livePreview: "https://mynotebookapps.netlify.app/",

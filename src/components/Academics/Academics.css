@@ -106,3 +106,16 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+@media (max-width: 768px) {
+  .academics__container {
+    flex-direction: column;
+  }
+
+  .academic__item:first-child {
+    order: 1; /* Ensure the master's degree is on top */
+  }
+
+  .academic__item:last-child {
+    order: 2;
+  }
+}
