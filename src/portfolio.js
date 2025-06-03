@@ -15,6 +15,31 @@ const about = {
 };
 const experiences = [
   // experiences can be added and removed
+    {
+    name: "Datadrivers Oy",
+    role: "Software Developer",
+    description:
+      "Architected an enterprise-grade design system from the ground up, driving UI/UX consistency across multiple product lines and significantly improving development velocity. Spearheaded front-end R&D initiatives by evaluating next-generation frameworks and authoring Architecture Decision Records (ADRs) to guide scalable component library selection. Developed a comprehensive, accessible, and performant component library using TypeScript, React, and Tailwind CSS. Established robust development infrastructure including Storybook documentation, design tokens, and automated testing frameworks. Collaborated cross-functionally with product, design, and backend teams to deliver seamless user experiences for flagship platforms such as Webauto and Fleetskills. Additionally, mentored teams on modern front-end best practices, component-driven development, and CI/CD workflows.",
+    stack: [
+      "JavaScript",
+      "React",
+      "Storybook",
+      "TypeScript",
+      "Web Components",
+      "SASS",
+      "Jest",
+      "Azure",
+      "Azure DevOps",
+      "Tailwind CSS",
+      "Material UI",
+      "Git",
+      "CI/CD",
+      "shadcn/ui",
+      "Next.js",
+      "Figma",
+    ],
+    duration: "Mar 2023 - Present",
+  },
   {
     name: "Metso",
     role: "Software Developer",
@@ -33,7 +58,7 @@ const experiences = [
       "CI/CD",
       "Figma",
     ],
-    duration: "May 2023 - Nov 2024",
+    duration: "May 2023 - Jan 2024",
   },
 
   {
@@ -42,7 +67,7 @@ const experiences = [
     description:
       " Developed an order-handling web application with modern features from scratch using modern features and practices",
     stack: ["SASS", "JavaScript", "React", "Firebase"],
-    duration: "2022 - August 2023",
+    duration: "Aug 2022 - Mar 2023",
   },
   {
     name: "Integrify Oy",
@@ -121,6 +146,22 @@ const academics = [
 
 const projects = [
   // projects can be added and removed
+    {
+    name: "VisionBoard",
+    description:
+      "I developed a latent dashboard interface leveraging Next.js, TypeScript, and Shadcn/UI.",
+    stack: ["Next.Js", "TypeScript", "Shadcn/UI"],
+    sourceCode: "https://github.com/bikashghimire/visionboard-shadcn",
+    livePreview: "https://visionboard-shadcn.vercel.app/",
+  },
+      {
+    name: "Wave of Flavors",
+    description:
+      "A website for a restaurant in Helsinki, Finland. It is built with React, TypeScript, and Tailwind CSS.",
+    stack: ["React.Js", "TypeScript", "Shadcn/UI"],
+    sourceCode: "https://github.com/bikashghimire/wave-of-flavors",
+    livePreview: "https://www.waveofflavors.fi/",
+  },
   {
     name: "Bikash Dev Blog",
     description:
@@ -134,7 +175,7 @@ const projects = [
     description:
       "I developed a dashboard interface leveraging Next.js, TypeScript, and Shadcn/UI.",
     stack: ["Next.Js", "TypeScript", "Shadcn/UI"],
-    sourceCode: "https://github.com/bikashghimire/bikashdev-blog",
+    sourceCode: "https://github.com/bikashghimire/bikashpress-ui",
     livePreview: "https://bikashpress-ui.vercel.app/",
   },
   {
