@@ -38,7 +38,7 @@ const experiences = [
       "Next.js",
       "Figma",
     ],
-    duration: "Mar 2023 - Present",
+    duration: "Mar 2024 - Present",
   },
   {
     name: "Metso",
