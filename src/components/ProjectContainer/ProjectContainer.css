@@ -1,53 +1,31 @@
-:root {
-  --background-color: #fff;
-  --text-color: #000;
-  --card-background-color: #fff;
-  --card-shadow-color: rgba(0, 0, 0, 0.1);
-  --card-hover-shadow-color: rgba(0, 0, 0, 0.2);
-  --badge-background-color: #e0e0e0;
-  --badge-text-color: #000;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #121212;
-    --text-color: #fff;
-    --card-background-color: #1e1e1e;
-    --card-shadow-color: rgba(255, 255, 255, 0.1);
-    --card-hover-shadow-color: rgba(255, 255, 255, 0.2);
-    --badge-background-color: #333;
-    --badge-text-color: #fff;
-  }
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
+/* variables come from App.css theme */
 
 .project {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--card-shadow-color);
-  transition: transform 0.2s linear;
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-fg);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   height: 100%;
-  background-color: var(--card-background-color);
-  color: var(--text-color);
 }
 
 .project:hover {
-  transform: translateY(-7px);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 .project__role {
   padding-top: 20px;
+  color: var(--clr-fg-alt);
 }
 
 .project__description {
   padding: 5px;
   text-align: center;
-  color: var(--text-color);
+  color: var(--clr-fg);
 }
 
 .project__stack {
@@ -59,21 +37,21 @@ body {
 }
 
 .project__stack-item {
-  background-color: var(--badge-background-color);
-  border-radius: 4px;
-  padding: 0.3rem 0.6rem;
+  background-color: var(--clr-bg);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
   font-size: 0.9rem;
-  color: var(--badge-text-color);
-  display: inline-block;
-  margin-bottom: 0.3rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  color: var(--clr-fg);
+  border: 1px solid rgba(125,125,125,0.2);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .project__stack-item:hover {
-  background-color: var(--card-hover-shadow-color);
+  background-color: var(--clr-bg-alt);
+  border-color: rgba(125,125,125,0.35);
 }
 
 .project .link--icon {
   margin-left: 0.5em;
-  color: var(--text-color);
+  color: var(--clr-fg);
 }

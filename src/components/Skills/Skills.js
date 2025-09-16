@@ -6,7 +6,6 @@ import {
   faHtml5,
   faCss3Alt,
   faGitAlt,
-  faNpm,
   faSass,
   faPython,
 } from "@fortawesome/free-brands-svg-icons";

@@ -5,3 +5,9 @@
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
+
+@media (max-width: 600px) {
+  .projects__grid {
+    grid-gap: 1.25em;
+  }
+}

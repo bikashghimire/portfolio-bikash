@@ -14,7 +14,7 @@
 }
 
 .about__name {
-  color: var(--primary-color);
+  color: var(--clr-primary);
 }
 
 .about__role {
@@ -35,27 +35,12 @@
 
 .about__social-link {
   font-size: 2rem;
-  color: var(--text-color);
+  color: var(--clr-fg);
   transition: color 0.3s ease;
 }
 
 .about__social-link:hover {
-  color: var(--primary-color);
+  color: var(--clr-primary);
 }
 
-:root {
-  --primary-color: #007bff;
-  --text-color: #000;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-color: #90a0d9;
-    --text-color: #fff;
-  }
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
+/* Use global theme variables from .light/.dark in App.css */

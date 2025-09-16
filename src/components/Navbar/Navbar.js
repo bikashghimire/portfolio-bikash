@@ -7,13 +7,13 @@ import {
   contact,
 } from "../../portfolio";
 import "./Navbar.css";
-import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
-import Brightness2Icon from "@material-ui/icons/Brightness2";
-import CloseIcon from "@material-ui/icons/Close";
-import MenuIcon from "@material-ui/icons/Menu";
+import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
+import Brightness2Icon from "@mui/icons-material/Brightness2";
+import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
 import { ThemeContext } from "../../contexts/theme";
 
-const Navbar = ({}) => {
+const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false);
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
 
